@@ -259,35 +259,35 @@ a{
     color:white;
 }
 .sp-login{
-    width:70%;
-    height:5rem;
+    width:50%;
+    height:2rem;
     background: #00a1d9;
     position:absolute;
-    left:15%;
+    left:25%;
     right:0;
-    top:25rem;
-    border-radius: 10rem;
+    top:12rem;
+    border-radius: 1rem;
     text-align: center;
-    line-height: 1rem;
+    line-height:0.1rem;
 }
 .sp-login p{
-    font-size:2rem;
+    font-size:1rem;
     color:white;
 }
 .sp-reg{
-    width:70%;
-    height:5rem;
+    width:50%;
+    height:2rem;
     background: #f2d03b;
     position:absolute;
-    left:15%;
+    left:25%;
     right:0;
-    top:32rem;
-    border-radius: 10rem;
-    line-height: 1rem;
+    top:15rem;
+    border-radius: 1rem;
+    line-height: 0.1rem;
     text-align: center;
 }
 .sp-reg p{
-    font-size:2rem;
+    font-size:1rem;
     color:white;
 }
 .sp-go{
