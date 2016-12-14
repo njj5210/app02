@@ -9,7 +9,6 @@ var rAF = window.requestAnimationFrame	||
 
 var utils = (function () {
 	var me = {};
-
 	var _elementStyle = document.createElement('div').style;
 	var _vendor = (function () {
 		var vendors = ['t', 'webkitT', 'MozT', 'msT', 'OT'],
@@ -289,7 +288,7 @@ function IScroll (el, options) {
 
 		resizeScrollbars: true,
 
-		mouseWheelSpeed: 20,
+		mouseWheelSpeed:5,
 
 		snapThreshold: 0.334,
 
