@@ -6,26 +6,58 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/swiper-3.4.0.min.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/sp.css">
     <script src="js/jquery.js"></script>
-    <script src="js/iscroll.js"></script>
+    <script src="js/swiper.animate1.0.2.min.js"></script>
     <script src="js/swiper-3.4.0.min.js"></script>
-    <script src="js/index.js"></script>
+    <script src="js/sp.js"></script>
 </head>
 <body>
-<div class="sp-box">
-<div class="sp-title">
-    <h1>WOHOO</h1>
+<div class="swiper-container swiper-02">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <img src="img/26.jpg" alt="">
+            <div class="sp-title">
+                <h1 class="ani" swiper-animate-effect="rotateIn" swiper-animate-duration="1s" swiper-animate-delay="0.3s">ASIDERS</h1>
+            </div>
+        </div>
+
+
+        <div class="swiper-slide">
+            <img src="img/25.jpg" alt="">
+            <div class="sp-title">
+                <h1 class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.3s">SPORTS</h1>
+            </div>
+        </div>
+
+
+        <div class="swiper-slide">
+            <div class="sp-box">
+                <div class="sp-title">
+                    <h1 class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.3s">WOHOO</h1>
+                </div>
+                <div class="sp-login">
+                    <p class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.3s">AMAZING</p>
+                </div>
+                <div class="sp-reg">
+                    <p class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="0.3s">ACTIVITY</p>
+                </div>
+                <div class="sp-name">
+                    <h1 class="ani" swiper-animate-effect="flipInY" swiper-animate-duration="1s" swiper-animate-delay="0.3s">户外博主</h1>
+                </div>
+                <div class="sp-go">
+                    <a href="login.html" class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.3s">GO></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="swiper-pagination"></div>
+
 </div>
-    <div class="sp-login">
-       <p>AMAZING</p>
-    </div>
-    <div class="sp-reg">
-       <p>ACTIVITY</p>
-    </div>
-    <div class="sp-go">
-        <a href="login.html">GO></a>
-    </div>
-</div>
+
+
 </body>
 </html>

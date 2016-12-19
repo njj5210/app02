@@ -32,10 +32,8 @@ window.onload=function() {
     function app(){
         var swiper = new Swiper('.swiper-container', {
             pagination : '.swiper-pagination',
-            paginationType : 'custom',
-            paginationCustomRender: function (swiper, current, total) {
-                return current + ' / ' + total;
-            }
+            autoplay:3000,
+            loop: true
         });
     }
     app();
